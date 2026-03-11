@@ -1,1 +1,2 @@
-My java coding journey
+My java coding journey.
+Basic programs of java language.
