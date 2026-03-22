@@ -3,7 +3,7 @@ package MyException;
 
 class InSufficientBalance{
 	public InSufficientBalance() {
-		super(msg);
+		super();
 	}
 }
 
