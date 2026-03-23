@@ -1,16 +1,18 @@
 package Inheritance;
 
-class Bank{
+class Bank {
 	public void roi() {
 		// TODO Auto-generated method stub
 		System.out.println("6.5%");
 	}
+
 	public static void withdraw() {
 		// TODO Auto-generated method stub
 		System.out.println("Bamk allows to withdraw");
 	}
 }
-class Sbi extends Bank{
+
+class Sbi extends Bank {
 	@Override
 	public void roi() {
 		// TODO Auto-generated method stub
@@ -22,10 +24,11 @@ class Sbi extends Bank{
 //		System.out.println("Bamk allows to withdraw");
 //	}
 }
+
 public class Enjoy {
-public static void main(String[] args) {
-	Sbi s= new Sbi();
-	s.roi();
-	Sbi.withdraw();
-}
+	public static void main(String[] args) {
+		Sbi s = new Sbi();
+		s.roi();
+		Sbi.withdraw();
+	}
 }

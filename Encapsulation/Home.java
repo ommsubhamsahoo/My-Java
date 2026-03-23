@@ -4,6 +4,7 @@ class Tv
 {  
 	private int volume;
 	private int brightness;
+	
 	public Tv(int volume,int brightness) {
 		if(volume<=50 && brightness<=60)
 		{
