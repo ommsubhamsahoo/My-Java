@@ -11,7 +11,7 @@ public class MyArrayList {
 		//it allows heterogeneous data
 		//it allows null values
 		ArrayList al = new ArrayList();
-		al.add(10);
+		al.add(10); //al.(new Integer(10)) //Autoboxing
 		al.add(20);
 		al.add(30);
 		System.out.println(al);
@@ -37,7 +37,7 @@ public class MyArrayList {
 		System.out.println("iterating over list using foreach");
 		for(Object o:al)
 		{
-			System.out.println(o );
+			System.out.println(o);
 		}
 	}
 }

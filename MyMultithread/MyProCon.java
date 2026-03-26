@@ -20,6 +20,7 @@ class Producer extends Thread{
 class Queue{
 	int x;
 	boolean is_data_present=false;
+	
 	synchronized public void store(int j) {
 		
 		try {
@@ -42,9 +43,6 @@ class Queue{
 			
 	}
 			
-			
-
-	
 	synchronized public void retrieve() {
 		try {
 			if(is_data_present==true) {
