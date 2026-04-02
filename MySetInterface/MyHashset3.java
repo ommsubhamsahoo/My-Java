@@ -33,7 +33,7 @@ class Student1 implements Comparable<Student1>{
 	
 }
 
-public class MyHashset3 {
+public class MyHashSet3 {
 	
 	
 	public static void main(String[] args) {

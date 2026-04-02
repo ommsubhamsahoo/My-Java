@@ -43,7 +43,7 @@ class AgeComparator implements Comparator<Employee>
 	}
 }
 
-public class MyHash4 {
+public class MyHashSet4 {
 public static void main(String[] args) {
 	AgeComparator ageComparator = new AgeComparator();
 	TreeSet<Employee> ths = new TreeSet<>(ageComparator );
