@@ -57,7 +57,8 @@ class Passenger extends plane{
 	public void land() {
 		System.out.println("pp is landing");
 
-	}}
+	}
+}
 public class MyAbstraction {
 	public static void main(String[] args) {
 		Cargoplane cp = new Cargoplane();
